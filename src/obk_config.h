@@ -312,6 +312,7 @@
 #define ENABLE_DRIVER_SM16703P					1
 #define ENABLE_DRIVER_PIXELANIM					1
 #define ENABLE_DRIVER_SM15155E					1
+#define ENABLE_DRIVER_DMX               1
 
 #endif
 // parse things like $CH1 or $hour etc
@@ -326,6 +327,7 @@
 #define ENABLE_DRIVER_SSDP						1
 #if PLATFORM_BK7231N || PLATFORM_BK7231T || PLATFORM_BK7238
 #define ENABLE_DRIVER_MDNS						1
+#define ENABLE_DRIVER_DMX             1
 #endif
 #define ENABLE_DRIVER_IR						1
 #define ENABLE_DRIVER_RC						1
