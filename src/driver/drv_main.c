@@ -30,6 +30,12 @@ void DRV_MQTTServer_RunEverySecond();
 void DRV_MQTTServer_RunQuickTick();
 void DRV_MQTTServer_Stop();
 
+#if ENABLE_DRIVER_DMX
+void DMX_Init();
+void DMX_OnEverySecond();
+void DMX_Shutdown();
+#endif
+
 
 typedef struct driver_s {
 	const char* name;
